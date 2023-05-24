@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['avatars.githubusercontent.com', '127.0.0.1'],//mudar meu ip para o ip do deploy
+    domains: ['avatars.githubusercontent.com', 'nlw-spacetime-server-production.up.railway.app'],//mudar meu ip para o ip do deploy
   }
 }
 

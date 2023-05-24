@@ -22,7 +22,7 @@ export function NewMemoryForm() {
       const uploadFormData = new FormData()
       uploadFormData.set('file', fileToUpload)
       
-      const uploadResponse = await api.post('/upload', uploadFormData)
+      const uploadResponse = await api.post('/uploads', uploadFormData)
       
       coverUrl = uploadResponse.data.fileUrl
       console.log(uploadResponse.data)

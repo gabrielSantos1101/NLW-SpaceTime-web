@@ -29,6 +29,7 @@ export function MediaPicker() {
 
       {preview && (
         <img src={preview} 
+        alt=""
         className="w-full aspect-video rounded-lg object-cover" />
       )}
     </>
